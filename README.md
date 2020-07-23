@@ -24,3 +24,40 @@ You should have a completed seeds file for testing
 Answer the following questions:
 Which method(s) does Active Record create for you?
 Which method(s) did you have to create yourself? Why?
+
+
+
+
+
+Add these deliverables:
+
+- A Student belongs to a Teacher
+- Student#teacher should return the teacher that student belongs to
+- Teacher#students should return a list of all the students that belong to this teacher
+
+
+
+
+
+
+# if you've finished the second set of deliverables, here is the final set:
+
+Make all necessary changes to satisfy these deliverables: 
+
+- A Student has many Teachers through GradeLevel
+- A Teacher has many Students through GradeLevel
+You should have a complete seeds file 
+Answer the following questions:
+- What changes did you make to your app? Why?
+
+
+
+
+
+
+
+
+
+
+
+
