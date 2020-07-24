@@ -1,5 +1,6 @@
 class Teacher < ActiveRecord::Base
-    has_many :students, through: :grade_level
+    has_many :grade_levels
+    has_many :students, through: :grade_levels
 
     def tenure
         if self.years_of_experience > 5
@@ -9,9 +10,9 @@ class Teacher < ActiveRecord::Base
         end
     end
 
-    def students
-        Student.all.select { |student| student.grade_level == self.grade_level}
-    end
+    # def students
+    #     GradeLevel.all.select { |student| student.teacher_id == self.id}
+    # end
 
 end
 
