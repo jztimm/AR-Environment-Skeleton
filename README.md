@@ -22,9 +22,12 @@ Domain: Student-Teacher
 - Teacher#tenure should return true if a teacher has taught more than 5 years, otherwise false
 You should have a completed seeds file for testing
 Answer the following questions:
-Which method(s) does Active Record create for you?
-Which method(s) did you have to create yourself? Why?
 
+# Which method(s) does Active Record create for you?
+- Active Record creates
+
+# Which method(s) did you have to create yourself? Why?
+- The methods I had to create was the #tenure, .all_in_grade, and #full_name because I wanted the data to return specific data
 
 
 
