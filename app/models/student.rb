@@ -1,7 +1,7 @@
 require 'pry'
 
 class Student < ActiveRecord::Base
-    belongs_to :teacher
+    has_many :teachers, through: :grade_level
 
     def full_name
         self.first_name + " " + self.last_name
